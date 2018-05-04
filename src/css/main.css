@@ -22,7 +22,34 @@ body {
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
-    opacity: 2 !important;
+}
+
+
+.header.menu a:hover {
+    color: rgb(19, 0, 129);
+}
+
+.header.submenu {
+    background-color:#26a4d8;
+    width: 1000px;
+    height: 250px;
+    padding: 10px 10px 10px 10px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.submenu  {
+    list-style: none;
+    display: none;
+}
+
+.header.submenu li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .sidebar {
