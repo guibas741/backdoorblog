@@ -1,0 +1,7 @@
+.subMenu {
+    display: none;
+}
+
+.verticalMenu > li {
+    cursor: pointer;
+}
