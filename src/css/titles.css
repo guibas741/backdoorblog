@@ -2,6 +2,22 @@
     display: none;
 }
 
+.subMenu > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
 .verticalMenu > li {
     cursor: pointer;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    background-color: #26a4d8;
+    width: 150px;
+    border-radius: 15px 50px 30px 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
