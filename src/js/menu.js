@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-    $('#players').mouseover(function() {
+    $('#players').click(function() {
         $('.header.submenu').slideToggle('medium');
+        return false;
     })
 });
 

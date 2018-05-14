@@ -4,13 +4,23 @@
         <title>Titulos</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/titles.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
+         <div class="header menu">
+            <img src="../img/cloud9_logo.png" class="logo left-text">
+            <a href="../src/main.html" class="left-text">Cloud 9</a>
+            <a href="#time" class="right-text">Time</a>
+            <a href="" class="right-text" id="players">Membros</a>
+            <a href="../src/titles.html" class="right-text selected">Titulos</a>
+            <a href="#jogadas" class="right-text">Jogadas históricas</a>
+            <a href="http://cloud9.gg/lcs" target="_blank" class="right-text">Site do time</a>
+        </div>
         <div class="sidebar">
             <ul class="verticalMenu">
                 <li id="year2013">2013
                     <ul class="subMenu">
-                        <li><a href="">LCS NA</a></li>
+                        <li><a href="javascript:void(0)">LCS NA</a></li>
                         <li><a href="">Worlds</a></li>
                     </ul>
                 </li>
@@ -46,7 +56,9 @@
                 </li>
             </ul>
         </div>
-
+        <div class="content">
+            <div id="lcs2013"></div>
+        </div>
     </body>
     <footer>
         <p>Guilherme Augusto - 2018</p>

@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 function subMenuId(id) {
     $(id).click(function() {
-        $(id + ' ul').toggle();
+        $(id + ' ul').slideToggle('medium')
     });
 }
 
