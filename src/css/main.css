@@ -39,15 +39,19 @@ body {
 
 .header.submenu {
     background-color:#26a4d8;
-    width: 1000px;
-    height: 250px;
+    width: 175px;
+    height: 150px;
     padding: 10px 10px 10px 10px;
     font-size: 25px;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 10px;
-    opacity: 0.7;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    float: right;
+    right:185px;
 }
 
 .submenu  {
