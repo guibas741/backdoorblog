@@ -15,7 +15,7 @@ function menuPositions() {
 }
 
 function menuPlayers(id, classe) {
-    $('ul #' + id).mouseover(function() {
+    $('ul #' + id).mouseenter(function() {
         $('.'+classe).show('medium');
     }).mouseleave(function() {
         $('.'+classe).hide('medium');
