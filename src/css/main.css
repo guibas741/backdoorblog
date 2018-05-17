@@ -56,7 +56,7 @@ span.arrow-icon {
     z-index: 1;
     position: absolute;
     float: right;
-    right:520px;
+    right:515px;
 }
 
 .submenu  {
@@ -88,12 +88,31 @@ ul#toplist li a {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: 1;
     position: absolute;
     float: right;
-    left: 145px;
+    left: 140px;
+}
+
+.toplist {
     top: 0px;
+}
+
+.junglelist { 
+    top: 40px;
+}
+
+.midlist {
+    top: 70px;
+}
+
+.adclist {
+    top: 100px;
+}
+
+.supportlist {
+    top: 130px;
 }
 
 .right-text {
