@@ -37,10 +37,15 @@ body {
     color: rgb(19, 0, 129);
 }
 
+span.arrow-icon {
+    position: absolute;
+    right: 2px;
+}
+
 .header.submenu {
     background-color:#26a4d8;
-    width: 175px;
-    height: 150px;
+    width: 120px;
+    height: 145px;
     padding: 10px 10px 10px 10px;
     font-size: 25px;
     text-align: center;
@@ -51,7 +56,7 @@ body {
     z-index: 1;
     position: absolute;
     float: right;
-    right:185px;
+    right:520px;
 }
 
 .submenu  {
@@ -63,6 +68,32 @@ body {
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
+}
+
+ul#toplist li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+} 
+
+.toplist, .junglelist, .midlist, .adclist, .supportlist {
+    list-style: none;
+    display: none;
+    background-color:#26a4d8;
+    width: 110px;
+    height: 90px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    float: right;
+    left: 145px;
+    top: 0px;
 }
 
 .right-text {
